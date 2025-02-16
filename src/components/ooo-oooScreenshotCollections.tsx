@@ -1,8 +1,8 @@
-import oooAbout from "@/assets/ooo-ooo-about.png"
-import oooCalendar from "@/assets/ooo-ooo-calendar.png"
-import oooDrawing from "@/assets/ooo-ooo-drawing-page.png"
-import oooShowcase from "@/assets/ooo-ooo-drawing-showcase.png"
-import oooProfile from "@/assets/ooo-ooo-profile-page.png"
+import oooAbout from "@/assets/ooo_ooo_about.png"
+import oooCalendar from "@/assets/ooo_ooo_calendar.png"
+import oooDrawing from "@/assets/ooo_ooo_drawing_page.png"
+import oooShowcase from "@/assets/ooo_ooo_drawing_showcase.png"
+import oooProfile from "@/assets/ooo_ooo_profile_page.png"
 
 
 export const oooScreenshots = [
