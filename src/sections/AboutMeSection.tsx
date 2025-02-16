@@ -64,7 +64,7 @@ export const AboutMeSection : React.ElementType = () => {
                             <div className="flex flex-col items-start justify-center px-2">
                                 <div className="flex flex-row gap-4 items-center">
                                     <SvgIcon className="-rotate-3 hover:bg-gradient-radial hover:from-pistachio/30 hover:from-20% hover:via-slate-500 hover:to-transparent hover:to-60% hover:rotate-3 scale-[90%] hover:scale-[110%] transition-all" color="fill-black" component={cat}/>
-                                    <h1 className="font-sans w-32 text-left hover:scale-[125%] transition-all origin-left">chillin' w/ my cat</h1>
+                                    <h1 className="font-sans w-32 text-left hover:scale-[125%] transition-all origin-left">{"chillin' w/ my cat"}</h1>
                                 </div>
                                 <div className="flex flex-row gap-4 items-center">
                                     <SvgIcon className="-rotate-3 hover:bg-gradient-radial hover:from-pistachio/30 hover:from-20% hover:via-slate-500 hover:to-transparent hover:to-60% hover:rotate-3 scale-[90%] hover:scale-[110%] transition-all" color="fill-black" component={coffee}/>
