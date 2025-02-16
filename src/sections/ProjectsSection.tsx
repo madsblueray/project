@@ -84,7 +84,7 @@ export const ProjectsSection = () => {
                                 <ul className="flex flex-col content-start gap-1">
                                     <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>CRUD functionality: post, save, delete, edit, etc.</li>
                                     <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>users vote on a pool of daily drawings. highest scorers earn a spot in the hall of fame.</li>
-                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>upvoted drawings are saved to a "liked tab", can be viewed anytime.</li>
+                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>{'upvoted drawings are saved to a "liked tab", can be viewed anytime.'}</li>
                                     <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>a proof of concept. domain is live but playerbase is inactive.</li>
                                 </ul>
                             </div>
