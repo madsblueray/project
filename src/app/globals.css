@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #252425;
+  --foreground: #ededed;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #252425;
+    --foreground: #ededed;
+  }
+}
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  /* FULL ITEMS (one-liners that do not need a react component) */
+  .slot-border {
+    @apply h-full w-full border-2 border-gray-900 rounded-md
+  }
+  .red-ball-border {
+    @apply border-4 border-red-900
+  }
+
+  /* MATERIALS */
+  .slot-metal {
+    @apply bg-gradient-to-b from-slate-300/90 via-slate-400/80 to-slate-600/80
+  }
+  .slot-arm-metal {
+    @apply bg-gradient-to-r from-slate-600 via-[percentage:13.3%_86.6%] via-slate-300 to-slate-600
+  }
+  .red-ball {
+    @apply bg-gradient-radial from-red-600 from-0% to-red-900 to-95%
+  }
+  .slot-button {
+    @apply bg-gradient-radial from-red-400 from-0% to-red-700 to-95% border-gray-800/20 border-2
+  }
+  .slot-button-sides {
+    @apply bg-gradient-to-b from-red-600 to-red-900 from-[33%]
+  }
+  .red-ball-shadow {
+    @apply bg-black/40
+  }
+  .bg-div-1 {
+    @apply bg-[#2E2F36]
+  }
+  .div-1 {
+    @apply relative flex flex-col gap-1 font-serif bg-div-1 rounded-3xl border-2 border-separate border-[#BED38C]/20
+  }
+  .div-2 {
+    @apply relative flex flex-col gap-1 font-serif bg-div-1 rounded-3xl
+  }
+  .text-title-xl {
+    @apply text-[#BED38C] text-5xl text-center
+  }
+  .text-title {
+    @apply text-[#BED38C] tracking-tight text-3xl font-semibold text-center
+  }
+
+  .text-header {
+    @apply text-ash-gray text-3xl text-center
+  }
+  .text-subheader {
+    @apply text-ash-gray text-base tracking-tighter text-center
+  }
+
+  .book-gradient-overlay {
+    @apply border-y-2 inset-0 border-gray-500/50 after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-gradient-to-r after:from-black/50 after:via-transparent after:via-[percentage:10%_90%] after:to-black/50
+  }
+
+  .book-hover-interactable {
+    @apply hover:z-10 hover:rotate-0 hover:scale-[125%] hover:shadow-xl hover:shadow-gray-950/50 origin-[50%_80%] hover:duration-[0.4s] hover:transition-all duration-[0.3s] transition-all
+  }
+
+  .book {
+    @apply book-hover-interactable book-gradient-overlay rounded-[0.2rem]
+  }
+  
+}
