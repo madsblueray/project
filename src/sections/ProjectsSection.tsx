@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import catBallTrailer from "@/assets/cat-ball-trailer-cropped.gif"
-import catballAppIcon from "@/assets/catball-app-icon.webp"
 import iphoneCatballMainMenu from "@/assets/iphone-catball.webp"
 import { twMerge } from "tailwind-merge";
 import { ReviewBody, catballReviews } from "@/components/ReviewCollections"

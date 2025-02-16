@@ -12,7 +12,6 @@ export default function Home() {
         <HeroSection />
       </div>
       <div className="animate-fade-in-warp">
-        <ProjectsSection />
         <ToolsSection />
         <AboutMeSection />
         <ContactSection />
