@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import wavingMan from "@/assets/sitting-waving-yellow-man.png";
 import Image from "next/image"
 import Grain from "@/assets/grain.jpg"

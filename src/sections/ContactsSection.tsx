@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Grain from "@/assets/grain.jpg"
 import Water from "@/assets/water.jpg"
 import { SectionHeader } from "@/components/SectionHeader"

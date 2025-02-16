@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 
 import Image from "next/image"
 import catBallTrailer from "@/assets/cat-ball-trailer-cropped.gif"

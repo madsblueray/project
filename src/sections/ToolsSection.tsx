@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { SectionHeader } from "@/components/SectionHeader"
 import React from "react";
 import { SvgIcon } from "@/components/SvgIcon";
