@@ -46,13 +46,13 @@ export const HeroSection = () => {
                                 backgroundImage: `url(${metalTexture.src})`
                             }}></div>
                         <div className="z-10 animate-fade-in-t-1000 text-[#9A9A9A] tracking-widest font-semibold ml-8 md:ml-14">
-                            <h1 className="font-serif">hi there, i'm</h1>
+                            <h1 className="font-serif">{"hi there, i'm"}</h1>
                         </div>
                         <div className="z-10 animate-fade-in-b-2000 flex w-full h-10 text-title-xl hover:text-[#CEF3EC] transition-colors justify-center items-center">
                             <h1 className="z-10 font-sono text-[2.7rem] md:text-[3.63rem] tracking-[-0.03em] md:tracking-normal font-bold text-nowrap [transform:scale(1,1.15)] md:mt-2"><span>Madison</span><span className="pl-3 md:pl-6">Holmes</span></h1>
                         </div>
                         <div className="z-10 px-4 md:px-[4rem] animate-fade-in-r-3000 [animation-duration:4.4s] text-[#9A9A9A] text-sm md:text-base font-semibold leading-4 text-center md:-mt-1">
-                            <h1 className="font-sans font-light md:[font-weight:400]">i'm a web dev with a passion for unique design and fresh ideas. i take inspiration from digital art, fashion, and video games to make cool stuff.</h1>
+                            <h1 className="font-sans font-light md:[font-weight:400]">{"i'm a web dev with a passion for unique design and fresh ideas. i take inspiration from digital art, fashion, and video games to make cool stuff."}</h1>
                         </div>
                     </div>
                 </div>
