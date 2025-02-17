@@ -3,6 +3,11 @@
 import Grain from "@/assets/grain.jpg"
 import Water from "@/assets/water.jpg"
 import { SectionHeader } from "@/components/SectionHeader"
+import { SvgIcon } from "@/components/SvgIcon"
+import { default as LinkedIn } from "@/assets/linkedin.svg"
+import { default as Phone } from "@/assets/phone.svg"
+import { default as Email } from "@/assets/email.svg"
+import { ContactMethodDiv } from "@/components/ContactMethodDiv"
 
 export const ContactSection = () => {
     return (
@@ -24,13 +29,10 @@ export const ContactSection = () => {
             <SectionHeader 
                 title="let's work"
                 description="i'm actively looking for work and new opportunities. reach out however you like, i'm ready when you are!"/>
-            <div className="flex flex-col w-full items-center">
-                <div className="div-1 flex flex-col items-center justify-center w-[16rem] h-[4rem]">
-                    <div className="text-center font-sono text-xl flex flex-row justify-center gap-4 bg-red-800">
-                        <div>LinkedIn</div>
-                        <div>LinkedIn</div>
-                    </div>
-                </div>
+            <div className="flex flex-col md:flex-row gap-8 w-full justify-center items-center">
+                <ContactMethodDiv title={"LinkedIn"} link="https://www.linkedin.com/in/madison-holmes-579ba9178/" svgComponent={LinkedIn} svgColor="stroke-slate-300/80"/>
+                <ContactMethodDiv title={"Phone"} link="tel:+18057126797" svgComponent={Phone} svgColor="fill-slate-300/80"/>
+                <ContactMethodDiv title={"Email"} link="mailto:madsblueray@gmail.com" svgComponent={Email} svgColor="stroke-slate-300/80"/>
             </div>
         </div>
     )

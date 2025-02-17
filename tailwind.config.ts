@@ -62,7 +62,9 @@ export default {
         'rainbow-spin-reveal': 'rainbow_spin_reveal 6s ease-in-out',
 
         'vertical-auto-carousel': 'vertical_auto_carousel 30s linear infinite',
-        'horizontal-auto-carousel': 'horizontal_auto_carousel 20s linear infinite'
+        'horizontal-auto-carousel': 'horizontal_auto_carousel 20s linear infinite',
+
+        'bg-scroll-to-tr': 'bg_scroll_to_tr 30s linear infinite'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))'
@@ -180,6 +182,10 @@ export default {
           '0%': {opacity: '0', transform: 'rotateZ(-180deg)'},
           '40%': {opacity: '0', transform: 'rotateZ(-180deg)'},
           '100%': {opacity: '100', transform: 'rotateZ(-0deg)'},
+        },
+
+        bg_scroll_to_tr: {
+          '100%': {"background-position": "100vw -50vw"},
         }
       }
     },
