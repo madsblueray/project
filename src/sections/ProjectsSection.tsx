@@ -98,6 +98,31 @@ export const ProjectsSection = () => {
                                 
                             </div>
                         </div>
+                        <p hidden>
+                            Jackson Trewern project card
+                        </p>
+                        <div className="flex flex-col items-center justify-center inset-0 div-2 w-full overflow-clip shadow-lg shadow-reseda-green/20 border-taupe-gray/20 border-2">
+                            <div className="mt-2 font-sono font-bold tracking-base text-title">"jacksontrewern.com"</div>
+                            <div className="-mt-1 text-subheader text-base font-sono font-semibold tracking-tighter">a photography portfolio for my homeslice</div>
+                            <hr className="w-3/4 border-1 border-taupe-gray border-dashed [mask-image:linear-gradient(to_left,transparent,black,transparent)] my-1"/>
+                            <div className="text-subheader text-left text-sm font-sono tracking-tight px-4">
+                                <ul className="flex flex-col content-start gap-1">
+                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>CRUD functionality: post, save, delete, edit, etc.</li>
+                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>users vote on a pool of daily drawings. highest scorers earn a spot in the hall of fame.</li>
+                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>{'upvoted drawings are saved to a "liked tab", can be viewed anytime.'}</li>
+                                    <li className='inline-flex gap-2 before:[content:"\27A5"] before:text-base'>a proof of concept. domain is live but playerbase is inactive.</li>
+                                </ul>
+                            </div>
+                            <hr className="w-3/4 border-1 border-taupe-gray border-dashed [mask-image:linear-gradient(to_left,transparent,black,transparent)] mt-1"/>
+                            
+                            <div className="bg-black">
+                                
+                                <WebScreenshotCarousel 
+                                    screenshots={oooScreenshots}
+                                />
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

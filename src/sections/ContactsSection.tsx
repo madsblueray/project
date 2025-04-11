@@ -31,7 +31,7 @@ export const ContactSection = () => {
                 description="i'm actively looking for work and new opportunities. reach out however you like, i'm ready when you are!"/>
             <div className="flex flex-col md:flex-row gap-8 w-full justify-center items-center">
                 <ContactMethodDiv title={"LinkedIn"} link="https://www.linkedin.com/in/madison-holmes-579ba9178/" svgComponent={LinkedIn} svgColor="stroke-slate-300/80"/>
-                <ContactMethodDiv title={"Phone"} altTitle={"805-712-6797"} link="tel:+18057126797" svgComponent={Phone} svgColor="fill-slate-300/80"/>
+                <ContactMethodDiv title={"805-712-6797"} link="tel:+18057126797" textClassName="text-lg text-nowrap -ml-2" svgComponent={Phone} svgClassName="-ml-2" svgColor="fill-slate-300/80"/>
                 <ContactMethodDiv title={"Email"} link="mailto:madsblueray@gmail.com" svgComponent={Email} svgColor="stroke-slate-300/80"/>
             </div>
         </div>
