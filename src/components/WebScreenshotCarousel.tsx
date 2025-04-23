@@ -20,7 +20,8 @@ export const WebScreenshotCarousel : React.FC<CarouselProps> = ({screenshots}) =
                             <WebScreenshot
                                 key={img.title}
                                 img={img}
-                                className="[pointer-events:none]" />
+                                className="[pointer-events:none]"
+                            />
                         ))}
                     </Fragment>
                 ))}
