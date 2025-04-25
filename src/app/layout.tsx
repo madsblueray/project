@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={twMerge("[perspecitve:500px] overflow-x-hidden",openSans.variable, sono.variable)}>
+        <h1 className="hidden">madison holmes' dev portfolio</h1>
         {children}
       </body>
     </html>
